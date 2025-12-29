@@ -1,4 +1,4 @@
-# zed-sql
+# zed-sqlite
 
-SQL language support for [Zed](https://github.com/zed-industries/zed).
+SQLite language support for [Zed](https://github.com/zed-industries/zed).
 
