@@ -1,0 +1,46 @@
+name = "SQLite"
+grammar = "sqlite"
+path_suffixes = ["sql"]
+line_comments = ["-- "]
+
+[[brackets]]
+start = "("
+end = ")"
+close = true
+newline = false
+
+[[brackets]]
+start = "BEGIN"
+end = "END;"
+close = true
+newline = true
+
+[[brackets]]
+start = '"'
+end = '"'
+close = true
+newline = false
+
+[[brackets]]
+start = "'"
+end = "'"
+close = true
+newline = false
+
+[[brackets]]
+start = "["
+end = "]"
+close = true
+newline = false
+
+[[brackets]]
+start = "CASE"
+end = "END;"
+close = true
+newline = true
+
+[[brackets]]
+start = "/*"
+end = "*/"
+close = true
+newline = false

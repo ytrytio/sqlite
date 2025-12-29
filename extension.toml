@@ -1,11 +1,11 @@
-id = "sql"
-name = "SQL"
+id = "sqlite"
+name = "SQLite"
 schema_version = 1
-version = "1.1.6"
-authors = ["nervenes", "notpeter", "phileix", "tammyxiong"]
-description = "SQL language support."
-repository = "https://github.com/zed-extensions/sql"
+version = "1"
+authors = ["ytrytio"]
+description = "SQLite language support."
+repository = "https://github.com/ytrytio/sqlite"
 
-[grammars.sql]
-repository = "https://github.com/DerekStride/tree-sitter-sql"
-commit = "4a99c73f5384f2be10adc55208c84d95a7eb1137"
+[grammars.sqlite]
+repository = "https://github.com/dhcmrlchtdj/tree-sitter-sqlite"
+rev = "main"
